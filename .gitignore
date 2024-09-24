@@ -1,0 +1,17 @@
+# Ignore IntelliJ files
+.idea/
+*.iml
+
+# Ignore target folders (compiled classes and builds)
+target/
+
+# Ignore MySQL socket files and volume data
+*.sock
+volume-data/
+
+# Ignore log files
+*.log
+
+# Ignore Maven wrapper files if not needed
+mvnw
+mvnw.cmd
